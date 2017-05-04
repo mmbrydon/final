@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+
+html {
+	background-color: #fff;
+	margin: 0 auto;
+
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.header {
+	background-color: #fff;
+	height: 0px;
+	text-align: center;
+	margin-top: 0 auto;
+
+}
+
+.header img.center {
+	width: 140px;
+	height: 44.813px;
+	margin-top: 7px;
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: -10px;
+    background-color: #fff; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: scroll;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    display: block;
+    transition: 0.3s
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.sidenav #second-section a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 0px;
+}
+
+.sidenav #third-section a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 0px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #dfdfdf;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav hr {
+	background-color: #dfdfdf;
+	width: 250px;
+	text-align: center;
+	margin-right: 17px;
+	font-weight: 1px;
+	margin-top: -4px;
+	margin-bottom: 20px;
+}
+
+
+
+.text-box {
+	margin-top: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 66px;
+	width: auto;
+	max-width: 1140px;
+	top: 0px;
+	background: #fff;
+	position: relative;
+}
+
+/* article heading */
+.text-box h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4vw;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.text-box h2 {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	background: #16b0d0;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: -25px;
+	line-height: 30px;
+	height: 30px;
+	width: 70px;
+	text-align: center;
+
+}
+
+.text-box #lady-pic img {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	margin-right: 10px;
+}
+/* smallest font */
+.text-box h4 {
+	color: #000;
+	font-family: 'Montserrat';
+	font-weight: lighter;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 30px;
+	padding-right: 15px;
+}
+
+.text-box h5 {
+	font-family: 'Raleway';
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	margin-top: -10px;
+	line-height: 27px;
+	margin-left: 300px;
+}
+
+.text-box p {
+	font-family: 'Raleway';
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	margin-top: 0px;
+	line-height: 27px;
+	margin-left: 5px;
+}
+
+/* images */
+.hero-image {
+	background-image: url("../images/guineacop.jpg");
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 100px;
+	background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.icon-bar {
+    width: 15%; /* Full-width */
+    background-color: #fff; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    display: inline-block;
+    margin-left: 1200px;
+    margin-top: -48px;
+    position: absolute;
+    max-width: 100%;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: ; /* Add a hover color */
+}
+
+.active {
+    background-color: ; /* Add an active/current color */
+}
+
+#hamburger span img {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+
+a:link {
+	color: #1092ad;
+	text-decoration: none;
+
+}
+
+a:visited {
+	color: #1092ad;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #fbb41d;
+	text-decoration: none;
+}
+
+a:active {
+	color: #1092ad;
+	text-decoration: none;
+}
+
+
+blockquote {
+	font-family: 'Raleway';
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	margin-top: 0px;
+	line-height: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
